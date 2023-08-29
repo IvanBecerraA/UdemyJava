@@ -15,7 +15,6 @@ public class EjemploClaseMathRandom {
 
         System.out.println("colores = " + colores[(int) random]);
 
-
         Random randomObj = new Random();
         int randomInt = 15 + randomObj.nextInt(25 - 15 + 1);
         System.out.println("randomInt = " + randomInt);
